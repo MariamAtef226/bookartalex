@@ -1,0 +1,379 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>BookArt Shop - Alexandria</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img class="me-3" src="img/logo.jpeg" alt="BookArt Shop Logo" title="BookArt Shop">
+      <span class="brandname">BookArt Shop</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="bookmarks.html">Bookmarks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pen.html">Gel Pens</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Stickers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pencil Cups</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Other Products</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="landing d-flex justify-content-center align-items-center">
+  <div class="text-center d-flex flex-column justify-content-center align-items-center">
+    <h1 class="brandname">BookArt Shop</h1>
+    <p>Handmade products with love, care and passion</p>
+    <a class="btn main-btn rounded-pill ms-2" href="#aboutus">Let's Have a Tour</a>
+  </div>
+</div>
+
+
+<div class="aboutus text-center pb-4" id="aboutus">
+  <div class="container ">
+
+    <div class="main-title mt-5 pt-5 mb-5 position-relative">
+      <i class="fa-solid fa-palette fa-2x mb-4"></i>
+      <h2>About <span class="brandname">BookArt Shop</span></h2>
+      <p class="text-uppercase">A brief introduction to our humble business</p>
+    </div>
+
+    <div class="row justify-content-space-between align-items-center flex-column-reverse flex-md-row">
+      <img src="img/handcraft.png" class="col-lg-4 col-md-5 col-8" alt="Art Crafts PNG Drawing">
+      <div class="paragraphs col-md-7 col-lg-8 col-12">
+      <p> <span class="brandname">BookArt Shop</span> was first launched in 2018. Back then, we've sold limited products with limited specification & materials, which has had limited audience, as well. The business was relaunched in 2020, setting its main goal to be offering highest possible quality, because that's what you all deserve. After the relaunch, more products were included to our business to meet everyone's tastes and interests.</p>
+      <p> <span class="brandname">BookArt Shop</span>'s vision is to mix between different hobbies and arts, to come out with one single useful piece of art. We mix the love of books with the art of origami to bring you the best corner bookmarks in town. We apply recycling and produce the cutest durable pencil cups to bring joy to your desks and shelves.</p>
+      <p>Another thing is that, <span class="brandname">BookArt Shop</span> is keen on bringing everything you watch on pinterest and admire to reality, at humble prices and best quality, strarting from simple tools and ending with birthdays and occassions themed decorations!</p>
+      <p> Finally, always remember: stay passionate & <span class="brandname">BookArt</span> it! </p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="products" class="products text-center pb-5">
+  <div class="d-none d-md-block container">
+    <div class="main-title mt-5 pt-5 mb-5 position-relative">
+      <i class="fa-solid fa-palette fa-2x mb-4"></i>
+      <h2>What We Sell</h2>
+      <p class="text-uppercase">Our most significant products</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="box col-sm-6 col-lg-3 pt-4 position-relative mb-4" data-work="Bookmarks">
+        <i class="fa-solid fa-1 position-absolute bottom-0 num"></i>
+        <i class="fa-solid fa-book-bookmark fa-6x bottom-0 position-absolute"></i>
+      </div>
+      <div class="box col-sm-6 col-lg-3 pt-4 position-relative mb-4" data-work="Gel Pens">
+        <i class="fa-solid fa-2 position-absolute bottom-0 num"></i>
+        <i class="fa-solid fa-pen-clip fa-6x bottom-0 position-absolute"></i>
+      </div>
+      <div class="box col-lg-3 col-sm-6 pt-4 position-relative mb-4" data-work="Stickers">
+        <i class="fa-solid fa-3 position-absolute bottom-0 num"></i>
+        <i class="fa-solid fa-note-sticky fa-6x bottom-0 position-absolute"></i>
+      </div>
+      <div class="box col-lg-3 col-sm-6 pt-4 position-relative mb-4" data-work="Pencil Cups">
+        <i class="fa-solid fa-4 position-absolute bottom-0 num"></i>
+        <i class="fa-solid fa-jar fa-6x bottom-0 position-absolute"></i>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="carouselExampleControls" class="carousel slide d-md-none" data-interval="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="d-block w-100 box position-relative" data-work="Bookmarks">
+          <i class="fa-solid fa-1 position-absolute bottom-0 num"></i>
+          <i class="fa-solid fa-book-bookmark fa-6x bottom-0 position-absolute "></i>
+        </div>
+    </div>
+
+      <div class="carousel-item" data-work="Bookmarks">
+        <div class="d-block w-100 box position-relative" data-work="Gel Pens">
+          <i class="fa-solid fa-2 position-absolute bottom-0 num"></i>
+          <i class="fa-solid fa-pen-clip fa-6x bottom-0 position-absolute "></i>
+        </div>
+    </div>
+      <div class="carousel-item" data-work="Bookmarks">
+              <div class="d-block w-100 box position-relative" data-work="Stickers">
+                <i class="fa-solid fa-3 position-absolute bottom-0 num"></i>
+                <i class="fa-solid fa-note-sticky fa-6x bottom-0 position-absolute "></i>
+              </div>
+      </div>
+
+        <div class="carousel-item" data-work="Bookmarks">
+            <div class="d-block w-100 box position-relative" data-work="Pencil Cups">
+              <i class="fa-solid fa-4 position-absolute bottom-0 num"></i>
+              <i class="fa-solid fa-jar fa-6x bottom-0 position-absolute "></i>
+            </div>
+        </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <i class="fa-solid fa-circle-arrow-left position-absolute fa-2x"></i>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <i class="fa-solid fa-circle-arrow-right position-absolute fa-2x"></i>
+    </button>
+  </div>
+
+</div>
+
+
+<div class="Section">
+
+
+
+</div>
+<div id="samples" class="samples text-center pb-5">
+  <div class="container">
+    <div class="main-title mt-5 pt-5 mb-5 position-relative">
+      <i class="fa-solid fa-palette fa-2x mb-4"></i>
+      <h2>Some Of Our Products</h2>
+      <p class="text-uppercase">Real-life Photos of some of our products</p>
+    </div>
+
+    <ul class="shuffle list-unstyled d-flex justify-content-center align-items-center mt-5 mb-5">
+      <li id = "allshuffle" class="nav-link ps-2 pe-2 ps-md-3 pe-md-3 ms-1 me-1 pt-2 pb-2 active rounded-pill">All</li>
+      <li id="bmshuffle" class="nav-link ps-2 pe-2 ps-md-3 pe-md-3 ms-1 me-1 pt-2 pb-2 rounded-pill">Bookmarks</li>
+      <li id="penshuffle" class="nav-link ps-2 pe-2 ps-md-3 ms-1 me-1 pe-md-3 pt-2 pb-2 rounded-pill">Gel Pens</li>
+      <li id="stickshuffle" class="nav-link ps-2 pe-2 ms-1 me-1 ps-md-3 pe-md-3 pt-2 pb-2 rounded-pill">Stickers</li>
+      <li id="pcshuffle" class="nav-link ps-2 pe-2 ms-1 me-1 ps-md-3 pe-md-3 pt-2 pb-2 rounded-pill">Pencil Cups</li>
+    </ul>
+
+    <div class="row">
+      <div class="bm col-6 col-md-4 col-xl-3">
+        <img class="shufimg img-fluid" alt="Mickey Bookmarks" src="img/mick-bm.jpg">
+      </div>
+
+      <div class="bm col-6 col-md-4 col-xl-3">
+        <img class="shufimg img-fluid" alt="Lotso Bookmark" src="img/lotso-bm.jpg">
+      </div>
+
+      <div class="pc col-6  col-md-4   col-xl-3" >
+        <img class="shufimg img-fluid" alt="Snowwhite Pencil Cup" src="img/snow-cup.jpg"   >
+      </div>
+
+      <div class="pen col-6  col-md-4   col-xl-3" >
+        <img class="shufimg img-fluid" src="img/black-cat-pen.jpg" alt="Black Cat Gel Pen">
+      </div>
+
+      <div class="pc col-6  col-md-4   col-xl-3" >
+        <img class="shufimg img-fluid" src="img/mared-cup.jpg" alt="Monsters Inc Pencil Cup" >
+      </div>
+
+      <div class="stick col-6  col-md-4   col-xl-3" >
+        <img class="shufimg img-fluid" src="img/stick5.jpg" alt="Real Life stickers">
+      </div>
+
+      <div class="stick col-6  col-md-4   col-xl-3" >
+        <img class="shufimg img-fluid" src="img/stick9.jpg"  alt="Real Life stickers">
+      </div>
+
+      <div class="pen col-6  col-md-4   col-xl-3">
+        <img class="shufimg img-fluid" src="img/blue-uni-pen.jpg" alt="Blue Unicorn Gel Pen" >
+      </div>
+
+      <div class="stick col-6  col-md-4   col-xl-3" >
+        <img class="shufimg img-fluid" src="img/stick3.jpg" alt="Real Life stickers"  >
+      </div>
+
+      <div class="pen col-6  col-md-4   col-xl-3" >
+        <img class="shufimg img-fluid" src="img/pine-pen.jpg" alt="Pineapple Gel Pen"  >
+      </div>
+
+      <div class="bm col-6  col-md-4   col-xl-3" >
+        <img class="shufimg img-fluid" src="img/mick-long-bm.jpg"   alt="Mickey Bookmark">
+      </div>
+
+      <div class="bm col-6  col-md-4   col-xl-3">
+        <img class="shufimg img-fluid" src="img/emoji-bm.jpg"  alt="Emoji Bookmark" >
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div id="vision" class="vision text-center pb-5">
+  <div class="container">
+    <div class="main-title mt-5 pt-5 mb-5 position-relative">
+      <i class="fa-solid fa-palette fa-2x mb-4"></i>
+      <h2>Our Vision</h2>
+      <p class="text-uppercase">What BookArt Shop is aiming for</p>
+    </div>
+
+    <div class="row">
+      <div class="box col-md-6 col-lg-3 position-relative">
+        <i class="bgicon fa-solid fa-hand-holding-heart position-absolute"></i>
+        <h3>Made With Love</h3>
+        <p>Offering you handmade products that are fabricated with passion and love, because that's what arts are all about.</p>
+    </div>
+
+      <div class="box col-md-6 col-lg-3 position-relative">
+        <i class="bgicon fa-solid fa-dollar-sign position-absolute"></i>
+        <h3>Best Prices</h3>
+        <p>Delivering unique products for very humble and resonable prices yet at best quality, because that's what you deserve.</p>
+      </div>
+
+      <div class="box col-md-6 col-lg-3 position-relative">
+        <i class="bgicon fa-solid fa-paintbrush position-absolute"></i>
+        <h3>Appreciating Arts</h3>
+        <p>Mixing different kinds of arts to produce a single unique useful piece to appreciate the greatness of arts, and feeding the lust for it.</p>
+      </div>
+
+      <div class="box col-md-6 col-lg-3 position-relative">
+        <i class="bgicon fa-solid fa-wand-magic-sparkles position-absolute"></i>
+        <h3>Customize Products</h3>
+        <p>Customzing products for you to meet your wishes and dreams, and to give you a chance to enjoy our arts the way you like</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="contact text-center">
+    <h2 class="pt-5">We'd be glad to kindly serve you</h2>
+    <p>Contact us if you have any questions or if you'd like to place your order.</p>
+    <a class="mb-5 btn main-btn rounded-pill ms-2" href="#footer">Contact Us</a>
+</div>
+
+<div class="banner text-center pb-5">
+  <div class="main-title pt-5 mb-5 position-relative">
+    <i class="fa-solid fa-palette fa-2x mb-4"></i>
+    <h2><span class="brandname">BookArt Shop</span></h2>
+    <p class="text-uppercase">Stay Passionate and <span class="brandname">BookArt </span>it!</p>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="d-none d-md-block col-md-2 mb-3">
+      <i class="fa-solid fa-jar fa-7x"></i>
+    </div>
+
+    <div class="col-4 col-md-2 mb-3">
+      <i class="fa-solid fa-book-bookmark fa-7x"></i>
+    </div>
+
+    <div class="col-4 col-md-2 mb-3">
+      <i class="fa-solid fa-pen-clip fa-7x"></i>
+    </div>
+
+    <div class="d-none d-md-block col-md-2 mb-3">
+      <i class="fa-solid fa-hand-holding-heart fa-7x"></i>
+    </div>
+
+    <div class="col-4 col-md-2 mb-3">
+      <i class="fa-solid fa-paintbrush fa-7x "></i>
+    </div>
+
+    <div class="d-none d-lg-block col-md-2 mb-3">
+        <i class="fa-solid fa-wand-magic-sparkles fa-7x"></i>
+    </div>
+  </div>
+</div>
+
+<div class="reviews text-center pb-2 pt-5">
+  <h3>Since Quality and Credentiality Matter the Most to Us, Check Out Our Happy Clients Reviews <i class="fa-solid fa-heart"></i></h3>
+  <a class="mb-5 btn main-btn rounded-pill ms-2" target="_blank" href="https://www.instagram.com/stories/highlights/18137221741129192/?hl=en">Watch Reviews</a>
+</div>
+
+<div class="footer" id="footer">
+  <div class="container text-white-50 ">
+    <div class="row text-center pt-5 pb-5 text-md-start justify-content-center">
+
+      <div class="col-6 col-lg-4 mb-5">
+        <div class="mb-3">
+          <i class="brandname fs-3">BookArt Shop</i>
+        </div>
+        <p>This is the only and official website for BookArt Shop - Alexandria. It's for displaying the business and the products. Any orders must be placed through contacting the owner, Mariam Atef, through facebook, through Instagram dms or via email.</p>
+        <div class="copyright">
+          Created By <span class="name">Mariam Atef</span>
+          <div> &copy; 2022 - <span class="brandname"> BookArt Shop</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-2 mb-5">
+        <h5 class="title">Pages</h5>
+          <ul class="list-unstyled lh-lg ">
+              <li><a href="#" class="nav-link footer-link">Home</a></li>
+              <li><a href="bookmarks.html" class="nav-link footer-link">Bookmarks</a></li>
+              <li><a href="pen.html" class="nav-link footer-link">Gel Pens</a></li>
+              <li><a href="#" class="nav-link footer-link">Stickers</a></li>
+              <li><a href="#" class="nav-link footer-link">Pencil Cups</a></li>
+              <li><a href="#" class="nav-link footer-link">Other Products</a></li>
+          </ul>
+      </div>
+
+      <div class="col-6 col-lg-2 mb-5">
+        <h5 class="title">About Us</h5>
+        <ul class="list-unstyled lh-lg">
+            <li><a href="#aboutus" class="nav-link footer-link">About Us</a></li>
+            <li><a href="#products" class="nav-link footer-link">What We Sell</a></li>
+            <li><a href="#samples" class="nav-link footer-link">Our Work</a></li>
+            <li><a href="#vision" class="nav-link footer-link">Our Vision</a></li>
+        </ul>
+      </div>
+
+
+      <div class="col-6 col-lg-4 mb-5">
+        <h5 class="title">Contact Us</h5>
+            <div class="d-flex rounded-pill">
+              <a class="nav-link text-decoration-none elips" href="mailto:bookartshopalex@gmail.com"><i class="fa-solid fa-square-envelope me-2 fa-2x"></i>bookartshopalex@gmail.com</a>
+            </div>
+
+            <div class="d-flex rounded-pill mt-3">
+              <a class="d-block nav-link text-decoration-none elips" href="https://www.facebook.com/groups/108326546521738"><i class="me-2 fa-brands fa-facebook fa-2x"></i>  Facebook Group </a>
+            </div>
+
+            <div class="d-flex rounded-pill mt-3 ">
+              <a class="d-block nav-link text-decoration-none elips" href="https://www.instagram.com/bookartshopalex/?hl=en"><i class="fa-brands me-2 fa-instagram fa-2x"></i>  Instagram Account</a>
+            </div>
+        </div>
+
+
+    </div>
+  </div>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/all.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
