@@ -1,0 +1,267 @@
+:root{
+  --light:#f8f9fa;
+  --turquoise:#76bae3;
+  --trans-turq:#76bae3bb;
+  --bg-turq:#76bae31f;
+  --light-black:#3c3e3f;
+  --pink:#f30983;
+  --canary:#f8e837;
+}
+
+/*Animations*/
+@keyframes shake{
+  10%,30%{
+    transform: rotate(-10deg);}
+  20%,40%{
+    transform: rotate(10deg);
+  }
+  50%{
+    transform: rotate(0deg);
+  }
+}
+
+/*stylings*/
+
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+/*Start: NavBar styling*/
+.brandname{
+  font-family: 'Indie Flower', cursive;
+  font-weight:bold;
+  color:var(--turquoise);
+}
+
+.navbar{
+  background-color:var(--light-black);
+}
+
+.navbar a, .main-title h2, .samples ul li, .vision h3, .title{
+  color:var(--turquoise);
+}
+
+.navbar .brandname{
+  font-size:1.6rem;
+}
+
+.navbar-brand img{
+  animation-name:shake;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay:1s;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.navbar a:hover, .navbar-nav .nav-link.active{
+  color:var(--canary);
+}
+
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"]{
+  background-color: var(--turquoise);
+  color:var(--light);
+}
+
+.navbar-toggler{
+  color:var(--turquoise);
+  border-color:var(--turquoise);
+}
+/*End: NavBar styling*/
+
+/*Start: Landing styling*/
+.landing{
+  min-height:calc(85vh - 68px);
+  background-color:var(--light-black);
+}
+
+h1{
+  font-size:3rem;
+}
+
+.landing p{
+  color:var(--trans-turq);
+}
+
+.landing .btn, .contact .btn{
+  background-color:var(--turquoise);
+  color:var(--light);
+  border:none;
+}
+
+.landing .btn:hover, .contact .btn:hover{
+  background-color:var(--canary);
+  color:var(--light-black);
+}
+/*End: landing styling*/
+
+/*Start: About us styling*/
+.fa-palette, .name, .footer a:hover, .footer a:focus, .navbar a:focus{
+  color:var(--canary);
+}
+
+.main-title p, .banner svg{
+  color:var(--trans-turq);
+}
+
+.main-title::after{
+  content:"";
+  width:120px;
+  height:2px;
+  background-color: var(--canary);
+  position:absolute;
+  bottom:-20px;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+p .brandname{
+  color:inherit;
+}
+
+/*in other pages than home page*/
+.aboutus .fa-book-bookmark, .aboutus .fa-pen-clip{
+  color:var(--turquoise);
+  font-size: 13rem;
+}
+/*End: About us Styling*/
+
+/*start: products styling*/
+.products, .vision, .avprod{
+  background-color:var(--bg-turq);
+}
+
+.num, .bgicon{
+  color:#44444422;
+}
+
+.products .num{
+  font-size:12rem;
+}
+
+.products svg{
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.products .box{
+  height:200px;
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:var(--trans-turq);
+}
+
+.products .box::after{
+  content: attr(data-work);
+  position:absolute;
+  font-size:2rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:black;
+  top:0;
+  left:0;
+  right:0;
+  transform:translateY(100%);
+}
+
+.products .fa-circle-arrow-left, .products .fa-circle-arrow-right{
+  color:var(--light-black);
+}
+/*end: products Styling*/
+
+/*start: samples styling*/
+.samples ul li.active{
+  color:var(--light);
+  background-color: var(--turquoise);
+}
+
+.samples ul li:hover{
+  cursor:pointer;
+  color:var(--canary);
+}
+
+.samples img{
+  width:85%;
+  height:240px;
+  margin-bottom:20px;
+  border-radius: 5%;
+}
+
+@media (max-width:576px){
+
+  .samples img{
+    width:85%;
+    height:160px;
+    margin-bottom:20px;
+    border-radius: 5%;
+  }
+
+}
+/*End: samples styling*/
+
+/*Start: vision styling*/
+.bgicon{
+  font-size:6rem;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+}
+
+.vision .row p{
+  color:var(--light-black);
+}
+/*End: vision styling*/
+
+/*start contact styling*/
+.contact, .footer{
+  background-color: var(--light-black);
+  color:var(--light);
+}
+/*End: contact*/
+
+/*start reviews*/
+.reviews{
+  background-color:var(--turquoise);
+  color:var(--light);
+}
+
+.reviews .btn{
+  background-color:var(--light-black);
+  color:var(--light);
+  border:none;
+}
+
+.reviews .btn:hover{
+  background-color:var(--canary);
+  color:var(--light-black);
+}
+/*end reviews*/
+
+/*start footer*/
+.elips{
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+}
+/*end: footer*/
+
+
+/*start avprod*/
+
+.avprod img{
+  border-radius:10%;
+}
+
+
+.avprod .fa-circle-arrow-left, .avprod .fa-circle-arrow-right{
+  color:var(--light-black);
+}
